@@ -3,7 +3,7 @@ param name string
 param location string = resourceGroup().location
 param tags object = {}
 
-resource containerAppsEnvironment 'Microsoft.App/managedEnvironments@2025-01-01' = {
+resource containerAppsEnvironment 'Microsoft.App/managedEnvironments@2026-01-01' = {
   name: name
   location: location
   tags: tags
